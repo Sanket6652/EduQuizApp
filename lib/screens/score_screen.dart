@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../screens/home_screen.dart';
+import '../screens/question_screen.dart';
 
 // ignore: must_be_immutable
 class ScoreScreen extends StatelessWidget {

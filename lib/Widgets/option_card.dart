@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 
-class OptionCard extends StatelessWidget {
-  const OptionCard({Key? key, required this.option, required this.color})
-      : super(key: key);
+class Answer extends StatelessWidget {
+
   final String option;
-  
+
+  Answer({ required this.option, required this.color}) {
+    // TODO: implement Answer
+    throw UnimplementedError();
+  }
   final Color color;
 
   @override
@@ -21,5 +24,25 @@ class OptionCard extends StatelessWidget {
         ),
       ),
     );
+
+    // return InkWell(
+    //   onTap: (){},
+    //   child: Container(
+    //     padding: EdgeInsets.all(15),
+    //     margin: EdgeInsets.symmetric(vertical: 5,horizontal: 30),
+    //     width: double.infinity,
+    //     decoration: BoxDecoration(
+    //       color: null,
+    //       border: Border.all(color: Colors.blue),
+    //       borderRadius: BorderRadius.circular(20),
+    //     ),
+    //     child: Text(
+    //       'Answer',
+    //       style: TextStyle(
+    //         fontSize: 20,
+    //       ),
+    //     ),
+    //   ),
+    // );
   }
 }

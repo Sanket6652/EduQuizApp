@@ -1,4 +1,4 @@
-import 'package:educlass/screens/home_screen.dart';
+import 'package:educlass/screens/question_screen.dart';
 import 'package:flutter/material.dart';
 import '../ClassScreen/classsdetailsScreen.dart';
 
@@ -21,7 +21,7 @@ class ClassListScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Class List'),
+        title: Text('Classes'),
       ),
       body: GridView.builder(
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(

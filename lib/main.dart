@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:educlass/splashscreen/SplashScree.dart';
 import 'package:flutter/material.dart';
-import './screens/home_screen.dart';
+import './screens/question_screen.dart';
 import './screens/ClassScreen/class_screen.dart';
 
 void main() {
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.green,
       ),
       debugShowCheckedModeBanner: false,
-      home: SplashScreen() ,
+      home: const SplashScreen() ,
     );
   }
 }
